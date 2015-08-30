@@ -51,9 +51,9 @@ hr{
 }
 
 h1{
-    font-family: 'dancing_script_otregular';
+    font-family: 'alegreyaregular';
     font-weight: bold;
-    font-size: 42px;
+    font-size: 28px;
 
 }
 
@@ -80,4 +80,22 @@ h2{
 
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+@media (max-width: 750px){
+    .footer-blurb{
+        text-alight: left;
+    }
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h1 span {
+  color: #5E615C;
+}
+
+::selection {
+  background-color: #f84342;
 }
